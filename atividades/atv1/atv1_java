@@ -1,26 +1,21 @@
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Atividade 01=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 import java.util.Scanner;
 
 public class TESTE_01 {
     public static void main(String[] args) {
 
-        // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
-        
-        // Solicita ao usuário que insira o primeiro número
+
         System.out.print("insira primeiro número inteiro: ");
         int Num1 = cano.nextInt();
-        
-        // Solicita ao usuário que insira o segundo número
+
         System.out.print("insira segundo número inteiro: ");
         int Num2 = cano.nextInt();
-        
-        // Calcula a soma dos dois números
+
         int soma = Num1 + Num2;
-        
-        // Exibe o resultado
+
         System.out.println("A soma de " + Num1 + " e " + Num2 + " é: " + soma);
-        
-        // Fecha o scanner
+
         scanner.close();
     }
 }
