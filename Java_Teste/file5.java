@@ -37,3 +37,48 @@ import java.util.Scanner;
 	}
 
 //Teste Atividade em sala dia 13/11/2024
+
+package TESTE_01;
+import java.util.Scanner;
+public class TESTE_01 {
+    public static void main(String[] args) {
+    	System.out.println("Entre com o nome de 4 verduras");
+        Scanner s= new Scanner(System.in);
+        String[] verduras = new String[4];
+        
+        verduras[0] = s.next();
+        verduras[1] = s.next();
+        verduras[2]= s.next();
+        verduras[3]= s.next();
+        
+        for(int i = 0; i <= 3; i++) {
+        System.out.println(verduras[i]);
+
+        }
+    }
+    }
+
+//Referente á aula do dia 26/11/2024
+
+package teste;
+import java.util.Scanner;
+	public class HelloWorld{
+		public static void main(String [] args) {
+			Scanner myObj = new Scanner(System.in);
+			String[] bah = {"Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"};
+			System.out.println("Escolha um número de 0 a 6 ");
+			for (int i = 0; i < bah.length; i++) {
+				System.out.println("Próximo dia" + " - " + bah[i]);
+				System.out.println("Digite o número: ");
+				int escolha = myObj.nextInt();
+				if (escolha >= 0 && escolha < bah.length) {
+					System.out.println("Seu dia é: " + bah[escolha]);
+				} else {
+					System.out.println("Não é um dia da semana");
+				}
+					
+			}
+		}
+	}
+
+//Atividade do dia ??/??/2024
