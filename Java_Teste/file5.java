@@ -82,3 +82,49 @@ import java.util.Scanner;
 	}
 
 //Atividade do dia ??/??/2024
+
+package teste;
+import java.util.Scanner;
+	public class HelloWorld{
+		public static void main(String [] args) {
+			Scanner myObj = new Scanner(System.in);
+			int opçao;
+			double num1, num2, resultado;
+			System.out.println("Calculadora");
+			System.out.println("+ Soma");
+			System.out.println("- Subtração");
+			System.out.println("* Multiplicação");
+			System.out.println("/ Divisão");
+			while (true) {
+		 System.out.println("Escolha um operador");
+		 opçao = myObj.nextInt();
+				if (opçao == 5) {
+					break;
+				}
+		 System.out.println("Digite os números");
+		 num1 = myObj.nextDouble();
+		 num2 = myObj.nextDouble();
+		 switch (opçao) {
+		 case 1:
+			 resultado = num1 + num2;
+			 System.out.println("Resultado: " + resultado);
+			 break;
+		 case 2: resultado = num1 - num2;
+		 System.out.println("Resultado: " + resultado);
+		 break;
+		 case 3: resultado = num1 * num2;
+		 System.out.println("Resultado: " + resultado);
+		 break;
+		 case 4: 
+			 if (num2 != 0) {
+			 resultado = num1 / num2;
+			 System.out.println("Resultado: " + resultado);
+			 } else {
+				 System.out.println("Impossível dividir por zero.");
+			 } break;
+			 default: 
+				 System.out.println("Opção inválida.");
+   }
+}
+}
+}
