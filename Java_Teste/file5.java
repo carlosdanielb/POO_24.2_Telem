@@ -128,3 +128,24 @@ import java.util.Scanner;
 }
 }
 }
+
+// Trabalho em Java 2
+// Fatorial
+
+package teste;
+
+import java.util.Scanner;
+
+public class Teste_01 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite um número fatorial: ");
+		int fatorial = 1;
+		int n = sc.nextInt();
+		for (int i = 1; i <= n; i++) {
+			fatorial *= i;
+			
+		}
+		System.out.println(fatorial);
+	}
+}
