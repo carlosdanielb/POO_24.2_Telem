@@ -149,3 +149,26 @@ public class Teste_01 {
 		System.out.println(fatorial);
 	}
 }
+
+
+//08/01/2025
+
+package TESTE_01;
+
+public class Calculadora {
+	int result;
+
+	public int subtração(int a, int b) {
+		return a - b;
+	}
+
+	public static void main(String[] args) {
+		Calculadora c1 = new Calculadora();
+		c1.result = c1.subtração(10, 4);
+	    System.out.println(c1.result);
+	    
+	    Calculadora c2 = new Calculadora();
+	    c2.result = c2.subtração(20,30);
+	    System.out.println(c2.result);
+	}
+}
